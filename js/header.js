@@ -50,6 +50,7 @@ document.write('\
             <li><a href="future-sysmap.html">Future State System Map</a></li>\
             <li class="divider"></li>\
             <li><a href="clv.html">Customer Lifetime Value</a></li>\
+            <li><a href="financial.html">Financial Projections</a></li>\
           </ul>\
         </li>\
         <li><a href="recommendations.html">Recommendations</a></li>\
