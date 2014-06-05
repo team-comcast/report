@@ -23,7 +23,7 @@ h3 {
 
 h4 {
 	font-family:'Bitter', Georgia, serif;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .jumbotron p {
@@ -43,6 +43,13 @@ h4 {
 .page-opening p{
 	margin: 0 10px 0 10px;
 	font-family:'Open Sans', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.note {
+	margin: 0 10px 0 10px;
+	font-family:'Open Sans', Helvetica, sans-serif;
+	font-size:15px;
 }
 
 li {
@@ -90,5 +97,41 @@ table {
 }
 
 .panel-body {
+	font-family:'Open Sans', Helvetica, sans-serif;
+}
+
+.framework-pic {
+	position:relative;
+	width:1200px;
+	height:675px;
+	margin-bottom: 40px;
+	background-size:contain;
+	background-repeat: no-repeat;
+
+	border:solid 1px;
+}
+
+.framework-pic img {
+	width:100%;
+	z-index: -999;
+}
+
+.popover-content {
+	font-family:'Open Sans', Helvetica, sans-serif;
+	text-align:center;
+}
+
+.popover-title {
+	font-family:'Bitter', Georgia, serif;
+	font-size:18px;
+}
+
+.popover-top {
+	position:absolute;
+
+	border:solid 1px;
+}
+
+.row {
 	font-family:'Open Sans', Helvetica, sans-serif;
 }

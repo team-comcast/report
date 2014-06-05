@@ -7,10 +7,17 @@
     <title>Comcast</title>
 
     <!-- Bootstrap -->
-
     <script type="text/javascript" src = "js/header.js"></script>
-    <script type="text/javascript" src = "js/current-sysmap.js"></script>
-
+    <script type="text/javascript" src = "js/popover.js"></script>
+    <style>
+    .popover-content{
+      text-align: left;
+    }
+    h3{
+      padding-top:0;
+      margin-top:0;
+    }
+    </style>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,81 +37,90 @@
 
       <div class="page-opening">
         <h1>Current State System Map</h1>
-        <p>Currently, we believe Comcast blabhalbhalhb<br>
-        Click any of the components of the system map to see our analysis of each.</p>
+        <div class="note">Click the components of the fishbone diagram to see further information.<br>
+          <i>Note: some items are fairly self-explanatory and do not have additional information.</i><br>
+          This image is best viewed full screen.
+        </div>
       </div>
 
-      <table class="table-striped">
-        <colgroup>
-          <col width = "200">
-          <col width = "auto">
-        </colgroup>
-
-        <tr>
-          <td><center><h2>Drivers<h2></center></td>
-          <td>
-            <div class="container-fluid">
-              <div class="row sysmap-topics sysmap-buttons">
-                <div class="col-md-2" id="driver-1"><button type="button" class="btn btn-default">Network partners</button></div>
-                <div class="col-md-1" id="driver-2"><button type="button" class="btn btn-default">Policy</button></div>
-                <div class="col-md-2" id="driver-3"><button type="button" class="btn btn-default">Cost and revenue</button></div>
-                <div class="col-md-2" id="driver-4"><button type="button" class="btn btn-default">Content partners</button></div>
-                <div class="col-md-2" id="driver-5"><button type="button" class="btn btn-default">Technology</button></div>
-                <div class="col-md-1" id="driver-6"><button type="button" class="btn btn-default">Stock</button></div>
-                <div class="col-md-2" id="driver-7"><button type="button" class="btn btn-default">Lack of <br>competition</button></div>
-              </div>
-              <div class = "row desc" id="driver-desc">
-                <div class="col-md-12 driver-desc-text"><br></div>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr class="active">
-          <td><center><h2>Mainstay</h2></center></td>
-          <td>
-            <div class="container-fluid">
-              <div class="row sysmap-topics sysmap-buttons">
-                <div class="col-md-3" id="mainstay-1"><button type="button" class="btn btn-default">Design consumption model</button></div>
-                <div class="col-md-2" id="mainstay-2"><button type="button" class="btn btn-default">Market products</button></div>
-                <div class="col-md-2" id="mainstay-3"><button type="button" class="btn btn-default">Sell products</button></div>
-                <div class="col-md-2" id="mainstay-4"><button type="button" class="btn btn-default">Hardware<br>installation</button></div>
-                <div class="col-md-3" id="mainstay-5"><button type="button" class="btn btn-default">Distribute internet <br>and TV services</button></div>
-              </div>
-              <div class="row desc" id="mainstay-desc">
-                <div class="col-md-12 mainstay-desc-text"><br></div>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td><center><h2>Support</h2></center></td>
-          <td>
-            <div class="container-fluid">
-              <div class="row sysmap-buttons">
-                <div class="col-md-6" id="support-1"><button type="button" class="btn btn-default">Customer Service</button></div>
-                <div class="col-md-3" id="support-2"><button type="button" class="btn btn-default">Network partners</button></div>
-                <div class="col-md-3" id="support-3"><button type="button" class="btn btn-default">Infrastructure</button></div>
-              </div>
-              <div class="row sysmap-buttons">
-                <div class="col-md-2" id="support-4"><button type="button" class="btn btn-default">Call center</button></div>
-                <div class="col-md-2" id="support-5"><button type="button" class="btn btn-default">Technicians</button></div>
-                <div class="col-md-2" id="support-6"><button type="button" class="btn btn-default">Local branches</button></div>
-              </div>
-              <div class="row sysmap-topics sysmap-buttons">
-                <div class="col-md-4" id="support-7"><button type="button" class="btn btn-default">Training</button></div>
-              </div>
-              <div class="row desc" id="support-desc">
-                <div class="col-md-12 support-desc-text"><br></div>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-      </table>
-      <br><br>
-
     </div>
+
+    <center>
+      <div class="framework-pic" style="background-image:url('http://puu.sh/9fWEY/e20077372f.png')">
+
+        <!-- DRIVERS -->
+
+        <!-- Partners -->
+        <a id="one" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Connections with network, content, and political partners cause outside influences to affect company</div>" data-title="Partners" data-trigger="click" rel="popover" style="width:100px;height:65px;left:235px;top:80px;"></a>
+
+        <!-- Lack of Competition -->
+        <a id="two" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Lack of Competition" data-trigger="click" rel="popover" style="width:100px;height:65px;left:465px;top:50px;"></a>
+
+        <!-- Stock -->
+        <a id="three" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Stock" data-trigger="click" rel="popover" style="width:120px;height:65px;left:860px;top:55px;"></a>
+
+        <!-- MAINSTAY -->
+
+        <!-- Design Consumption Model -->
+        <a id="four" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Design Consumption Model" data-trigger="click" rel="popover" style="width:140px;height:90px;left:235px;top:200px;"></a>
+
+        <!-- Market Products -->
+        <a id="five" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>The action of business promoting and selling products or services, including market research and advertisement. </div>" data-title="Market Products" data-trigger="click" rel="popover" style="width:120px;height:65px;left:425px;top:205px;"></a>
+
+        <!-- Sell Products -->
+        <a id="six" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Sell Products" data-trigger="click" rel="popover" style="width:65px;height:40px;left:610px;top:220px;"></a>
+
+        <!-- Hardware Installation -->
+        <a id="seven" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Hardware Installation" data-trigger="click" rel="popover" style="width:140px;height:75px;left:740px;top:205px;"></a>
+
+        <!-- Distribute Internet and TV Services -->
+        <a id="eight" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Distribute Internet and TV Services" data-trigger="click" rel="popover" style="width:115px;height:65px;left:955px;top:205px;"></a>
+
+        <!-- SUPPORT -->
+
+        <!-- Customers cannot customize packages -->
+        <a id="nine" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Customers cannot customize packages" data-trigger="click" rel="popover" style="width:180px;height:80px;left:265px;top:330px;"></a>
+
+        <!-- Customer Service -->
+        <a id="ten" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Customer Service" data-trigger="click" rel="popover" style="width:165px;height:40px;left:590px;top:350px;"></a>
+
+        <!-- Call Center -->
+        <a id="eleven" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Call Center" data-trigger="click" rel="popover" style="width:70px;height:25px;left:470px;top:405px;"></a>
+
+        <!-- Local Branches -->
+        <a id="twelve" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Local call center branches are owned and operated by the company's employees. Third party call centers are not directly owned and operated by the company but are hired to handle the excessive amount of calls.</div>" data-title="Local Branches" data-trigger="click" rel="popover" style="width:115px;height:65px;left:590px;top:450px;"></a>
+
+        <!-- Triage System -->
+        <a id="thirteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Assignment of different types of calls with different problems to the correct representatives that would solve customer problems effectively and conveniently.</div>" data-title="Triage System" data-trigger="click" rel="popover" style="width:95px;height:25px;left:345px;top:420px;"></a>
+
+        <!-- Call Agent -->
+        <a id="fourteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>An employee whose duty is to who handles incoming and outgoing customer calls for a business.</div>" data-title="Call Agent" data-trigger="click" rel="popover" style="width:85px;height:25px;left:380px;top:490px;"></a>
+
+        <!-- Performance Metrics -->
+        <a id="fifteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Performance Metrics" data-trigger="click" rel="popover" style="width:130px;height:40px;left:270px;top:540px;"></a>
+
+        <!-- Excessive repeat calls -->
+        <a id="sixteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Repeat calls are any caller that calls back within 24 hours.</div>" data-title="Excessive repeat calls" data-trigger="click" rel="popover" style="width:230px;height:35px;left:105px;top:495px;"></a>
+
+        <!-- Diagnostic tools -->
+        <a id="seventeen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3><p>The tools used by call agents to diagnose customers' issues over the phone.<h3>IT Application Used</p></h3>GrandSlam</div>" data-title="Diagnostic tools" data-trigger="click" rel="popover" style="width:110px;height:40px;left:445px;top:560px;"></a>
+
+        <!-- Training -->
+        <a id="eighteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>The action of training people in order to build a skill or type of behavior.</div>" data-title="Training" data-trigger="click" rel="popover" style="width:105px;height:75px;left:645px;top:560px;"></a>
+
+        <!-- Dispatchers -->
+        <a id="nineteen" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Separate from the call centers, it is the department that is in charge of dispatching technicians to customers' residents</div>" data-title="Dispatchers" data-trigger="click" rel="popover" style="width:85px;height:25px;left:765px;top:430px;"></a>
+
+        <!-- Technicians -->
+        <a id="twenty" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3></div>" data-title="Technicians" data-trigger="click" rel="popover" style="width:85px;height:25px;left:765px;top:490px;"></a>
+
+        <!-- Long hold times -->
+        <a id="twentyone" class="popover-top" data-html="true" data-content="<div><h3>Process Definition</h3>Time spent waiting for a caller representative's response for consumer answer.</div>" data-title="Long hold times" data-trigger="click" rel="popover" style="width:200px;height:40px;left:850px;top:550px;"></a>
+
+
+      </div>
+    </center>
+
+
   </body>
 </html>

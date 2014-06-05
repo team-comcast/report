@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <script type="text/javascript" src = "js/header.js"></script>
+    <script type="text/javascript" src = "js/popover.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -25,10 +26,42 @@
   <body>
     <div class="container theme-showcase" role="main">
 
-      <div class="jumbotron">
-        <h1>Under Construction</h1>
+      <div class="page-opening">
+        <h1>Business Problem 1 - Root Cause Analysis</h1>
+        <p>Comcast has an excessive amount of repeat calls, meaning that customers call more than once within 24 hours.<br><br></p>
+        <div class="note">Click the components of the fishbone diagram to see further information.<br>
+          <i>Note: some items are fairly self-explanatory and do not have additional information.</i><br>
+          This image is best viewed full screen.
+        </div>
       </div>
 
     </div>
+
+    <center>
+      <div class="framework-pic" style="background-image:url('http://puu.sh/9fWC0/2e9f77480c.png')">
+
+        <!-- Upper management requirements -->
+        <a id="one" class="popover-top" data-html="true" data-content='<div><i>This quote is from <a href="http://www.reddit.com/r/IAmA/comments/103a3s/i_work_for_comcast_and_it_is_ruining_my_life_ama/">Reddit</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:220px;height:85px;left:50px;top:145px;"></a>
+
+        <!-- Corporate culture and management -->
+        <a id="two" class="popover-top" data-html="true" data-content='<div>"The corporate culture and management are only concerned with sales; service is nothing of interest."<br><i>This quote is from <a href="http://www.reddit.com/r/IAmA/comments/103a3s/i_work_for_comcast_and_it_is_ruining_my_life_ama/c6a5u5p">Reddit</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:220px;height:85px;left:165px;top:260px;"></a>
+
+        <!-- CEO is satisfied with 1/5 -->
+        <a id="three" class="popover-top" data-html="true" data-content='<div>The CEO stated that they are satisfied that 1 in 5 customers contact customer service without their problems being resolved.<br><i>This is from <a href="http://consumerist.com/2010/03/12/leaks-how-much-it-sucks-to-be-a-comcast-customer-service-rep/">Consumerist</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:205px;height:85px;left:645px;top:230px;"></a>
+
+        <!-- They are doing well financially -->
+        <a id="four" class="popover-top" data-html="true" data-content='<div>Their numbers (financial and customer growth) are still doing well.<br><i>Their most recent earnings statement can be found <a href="http://www.cmcsa.com/earnings.cfm">here</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:165px;height:60px;left:385px;top:170px;"></a>
+
+        <!-- Rushed calls -->
+        <a id="five" class="popover-top" data-html="true" data-content='<div>Comcast currently expects their representatives to finish a video-related call between 7-7.5 minutes, telephone-related calls within 9 minutes, and internet-related calls between 11-11.5 minutes.<br><i>This is from <a href="http://consumerist.com/2010/03/12/leaks-how-much-it-sucks-to-be-a-comcast-customer-service-rep/">Consumerist</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:110px;height:35px;left:530px;top:415px;"></a>
+
+        <!-- Multiple call transfers -->
+        <a id="six" class="popover-top" data-html="true" data-content='<div>Calls are transferred to other representatives to meet this metric and pushed down the “rusted, broken down pipe”.<br><i>This quote is from <a href="http://www.reddit.com/r/IAmA/comments/103a3s/i_work_for_comcast_and_it_is_ruining_my_life_ama/">Reddit</a></i></div>' data-title="" data-trigger="click" rel="popover" style="width:180px;height:35px;left:470px;top:488px;"></a>
+
+        <!-- Root cause -->
+        <a id="seven" class="popover-top" data-html="true" data-content='<div>Service representatives are trained and compensated to keep calls below a certain time limit and not incentivized to solve problems.</div>' data-title="Root Cause" data-trigger="click" rel="popover" style="width:230px;height:95px;left:370px;top:540px;"></a>
+
+      </div>
+    </center>
   </body>
 </html>

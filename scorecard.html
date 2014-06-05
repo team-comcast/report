@@ -9,6 +9,41 @@
     <!-- Bootstrap -->
     <script type="text/javascript" src = "js/header.js"></script>
 
+    <style>
+    .panel-body {
+      font-size:15px;
+    }
+    .panel-title {
+      font-size:18px;
+    }
+    .good{
+      background-color:#5cb85c;
+      margin:2px 0 2px 0;
+    }
+    .maybe{
+      background-color:#f0ad4e;
+      margin:2px 0 2px 0;
+    }
+    .bad{
+      background-color:#d9534f;
+      margin:2px 0 2px 0;
+    }
+    .row{
+      padding:5px;
+    }
+    .title .col-xs-3{
+      font-family:'Bitter',Georgia,serif;
+      font-size:18px;
+    }
+    .title .col-xs-6{
+      font-family:'Bitter',Georgia,serif;
+      font-size:20px;
+    }
+    .col-xs-3{
+      text-align:center;
+    }
+    </style>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,203 +76,131 @@
       <table>
         <div class="row">
           <div class="col-md-6">
-            <h4>Customer Perspective</h4>
-
-              <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#d9534f;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#1a1">
-                        meow
-                      </a>
-                    </p>
-                  </div>
-                  <div id="1a1" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      pewpewpewp
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#f0ad4e;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#1a2">
-                        Cmeow2
-                      </a>
-                    </p>
-                  </div>
-                  <div id="1a2" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      mewmew
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#d9534f;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#1a3">
-                        boink
-                      </a>
-                    </p>
-                  </div>
-                  <div id="1a3" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      reindeers are better than people
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            <div class="row title">
+              <div class="col-xs-6">Customer Perspective</div>
+              <div class="col-xs-3">Target</div>
+              <div class="col-xs-3">Actual</div>
+            </div>
+            <div class="row good">
+              <div class="col-xs-6">Retention rate</div>
+              <div class="col-xs-3">98.5%</div>
+              <div class="col-xs-3">98.5%</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Rating of 4-5 on official customer satisfaction survey</div>
+              <div class="col-xs-3">99%</div>
+              <div class="col-xs-3">1%</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">% of channels customers actually watch vs. how much tehy actually get</div>
+              <div class="col-xs-3">34%</div>
+              <div class="col-xs-3">9.4%</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Consumerist "Worst Company in America" contest</div>
+              <div class="col-xs-3">No Golden Poo</div>
+              <div class="col-xs-3">Golden Poo Award</div>
+            </div>
+            <div class="row good">
+              <div class="col-xs-6">Web Interface Ease of Use</div>
+              <div class="col-xs-3">High</div>
+              <div class="col-xs-3">High</div>
+            </div>
           </div>
+
+          
           <div class="col-md-6">
-            <h4>Financial Perspective</h4>
-
-              <div class="panel-group" id="accordion2">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#5cb85c;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion2" href="#2a1">
-                        meow
-                      </a>
-                    </p>
-                  </div>
-                  <div id="2a1" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      pewpewpewp
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#5cb85c;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion2" href="#2a2">
-                        Cmeow2
-                      </a>
-                    </p>
-                  </div>
-                  <div id="2a2" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      mewmew
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#5cb85c;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion2" href="#2a3">
-                        boink
-                      </a>
-                    </p>
-                  </div>
-                  <div id="2a3" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      reindeers are better than people
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            <div class="row title">
+              <div class="col-xs-6">Financial Perspective</div>
+              <div class="col-xs-3">Target</div>
+              <div class="col-xs-3">Actual</div>
+            </div>
+            <div class="row good">
+              <div class="col-xs-6">Total Revenue</div>
+              <div class="col-xs-3">$40,000 million</div>
+              <div class="col-xs-3">$41,836 million</div>
+            </div>
+            <div class="row good">
+              <div class="col-xs-6">Revenue - Percent Increase</div>
+              <div class="col-xs-3">5%</div>
+              <div class="col-xs-3">5.8%</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Operating Cash Flow - Percent Increase</div>
+              <div class="col-xs-3">5%</div>
+              <div class="col-xs-3">8.3%</div>
+            </div>
+            <div class="row good">
+              <div class="col-xs-6">Stock Price Gain - Year to Date</div>
+              <div class="col-xs-3">15%</div>
+              <div class="col-xs-3">24.49%</div>
+            </div>
           </div>
+
         </div>
         <div class="row">
+          
           <div class="col-md-6">
-            <h4>Operational Effectiveness</h4>
-
-              <div class="panel-group" id="accordion3">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#5cb85c;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion3" href="#3a1">
-                        meow
-                      </a>
-                    </p>
-                  </div>
-                  <div id="3a1" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      pewpewpewp
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#f0ad4e;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion3" href="#3a2">
-                        Cmeow2
-                      </a>
-                    </p>
-                  </div>
-                  <div id="3a2" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      mewmew
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#d9534f;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion3" href="#3a3">
-                        boink
-                      </a>
-                    </p>
-                  </div>
-                  <div id="3a3" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      reindeers are better than people
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            <div class="row title">
+              <div class="col-xs-6">Operational Effectiveness</div>
+              <div class="col-xs-3">Target</div>
+              <div class="col-xs-3">Actual</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Internal Response times</div>
+              <div class="col-xs-3">&lt;1 hour</div>
+              <div class="col-xs-3">2-24 hours</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Hold Rimes</div>
+              <div class="col-xs-3">0-5 minutes</div>
+              <div class="col-xs-3">&gt;15 minutes</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Number of Call Transfers</div>
+              <div class="col-xs-3">2</div>
+              <div class="col-xs-3">6</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">% of Repeat Calls</div>
+              <div class="col-xs-3">5%</div>
+              <div class="col-xs-3">15%</div>
+            </div>
+            <div class="row maybe">
+              <div class="col-xs-6">% of Self Installations</div>
+              <div class="col-xs-3">60%</div>
+              <div class="col-xs-3">40%</div>
+            </div>
           </div>
+
           <div class="col-md-6">
-            <h4>Employee Loyalty and Workforce Development</h4>
-
-              <div class="panel-group" id="accordion4">
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#f0ad4e;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion4" href="#4a1">
-                        meow
-                      </a>
-                    </p>
-                  </div>
-                  <div id="4a1" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                      pewpewpewp
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#f0ad4e;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion4" href="#4a2">
-                        Cmeow2
-                      </a>
-                    </p>
-                  </div>
-                  <div id="4a2" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      mewmew
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" style="background-color:#d9534f;">
-                    <p class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion4" href="#4a3">
-                        boink
-                      </a>
-                    </p>
-                  </div>
-                  <div id="4a3" class="panel-collapse collapse">
-                    <div class="panel-body">
-                      reindeers are better than people
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            <div class="row title">
+              <div class="col-xs-6">Workforce Development</div>
+              <div class="col-xs-3">Target</div>
+              <div class="col-xs-3">Actual</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Call center employee turnover rate per year</div>
+              <div class="col-xs-3">15%</div>
+              <div class="col-xs-3">32%</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Number of calls received per day per employee</div>
+              <div class="col-xs-3">25</div>
+              <div class="col-xs-3">35-40</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Frequency of training workshops</div>
+              <div class="col-xs-3">Monthly</div>
+              <div class="col-xs-3">Never</div>
+            </div>
+            <div class="row bad">
+              <div class="col-xs-6">Employee Happiness based on Survey</div>
+              <div class="col-xs-3">High</div>
+              <div class="col-xs-3">Very Low</div>
+            </div>
           </div>
+
         </div>
       </table>
       <br><br>
