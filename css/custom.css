@@ -1,5 +1,5 @@
 body {
-	padding-bottom:30px;
+	padding-bottom:40px;
 }
 
 .navbar-brand {
@@ -27,13 +27,13 @@ h4 {
 }
 
 .jumbotron p {
-	font-family:'PT Sans', Helvetica, sans-serif;
+	font-family:'Open Sans', Helvetica, sans-serif;
 	font-size: 20px;
 }
 
 .navbar-fixed-bottom p {
 	padding-top: 15px;
-	font-family:'PT Sans', Helvetica, sans-serif;	
+	font-family:'Open Sans', Helvetica, sans-serif;	
 }
 
 .page-opening {
@@ -42,7 +42,19 @@ h4 {
 
 .page-opening p{
 	margin: 0 10px 0 10px;
-	font-family:'PT Sans', Helvetica, sans-serif;
+	font-family:'Open Sans', Helvetica, sans-serif;
+}
+
+li {
+	font-family:'Open Sans', Helvetica, sans-serif;
+}
+
+th {
+	font-family:'Open Sans', Helvetica, sans-serif;
+}
+
+td {
+	font-family:'Open Sans', Helvetica, sans-serif;
 }
 
 /* SYSMAP STYLING */
@@ -54,7 +66,7 @@ table .container-fluid {
 }
 
 .desc p {
-	font-family: 'PT Sans', Helvetica, sans-serif;
+	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 table {
@@ -78,5 +90,5 @@ table {
 }
 
 .panel-body {
-	font-family:'PT Sans', Helvetica, sans-serif;
+	font-family:'Open Sans', Helvetica, sans-serif;
 }

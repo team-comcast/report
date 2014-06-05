@@ -1,7 +1,8 @@
 document.write('\
 <link href="css/bootstrap.min.css" rel="stylesheet">\
 <link href="css/custom.css" rel="stylesheet">\
-<link href="http://fonts.googleapis.com/css?family=PT+Sans|Bitter" rel="stylesheet" type="text/css">\
+<link href="http://fonts.googleapis.com/css?family=Open+Sans|Bitter" rel="stylesheet" type="text/css">\
+<link rel="icon" type="image/png" href="http://www.comcast.com/favicon.ico"/>\
 \
 <script type="text/javascript" src="js/jquery.min.js"></script>\
 <script type="text/javascript" src="js/bootstrap.min.js"></script>\
@@ -45,6 +46,7 @@ document.write('\
         </li>\
         <li><a href="mental-models.html">Mental Models</a></li>\
         <li><a href="scorecard.html">Balanced Scorecard</a></li>\
+        <li><a href="recommendations.html">Recommendations</a></li>\
       </ul>\
     </div><!-- /.navbar-collapse -->\
   </div><!-- /.container-fluid -->\
