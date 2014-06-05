@@ -108,7 +108,7 @@ table {
 	background-size:contain;
 	background-repeat: no-repeat;
 
-	border:solid 1px;
+	/*border:solid 1px;*/
 }
 
 .framework-pic img {
@@ -129,7 +129,7 @@ table {
 .popover-top {
 	position:absolute;
 
-	border:solid 1px;
+	/*border:solid 1px;*/
 }
 
 .row {
