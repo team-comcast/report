@@ -53,6 +53,7 @@ document.write('\
           </ul>\
         </li>\
         <li><a href="recommendations.html">Recommendations</a></li>\
+        <li><a href="videos.html">Videos</a></li>\
       </ul>\
     </div><!-- /.navbar-collapse -->\
   </div><!-- /.container-fluid -->\
