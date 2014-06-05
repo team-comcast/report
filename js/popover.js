@@ -1,71 +1,71 @@
 $(document).ready(function() {
      $('#one').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#two').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#three').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#four').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#five').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#six').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#seven').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#eight').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#nine').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#ten').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#eleven').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#twelve').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#thirteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#fourteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#fifteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#sixteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#seventeen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#eighteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#nineteen').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#twenty').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#twentyone').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#twentytwo').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
      $('#twentythree').popover({
-            placement: 'top'
+            placement: 'auto top'
         });
 });
